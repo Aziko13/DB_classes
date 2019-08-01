@@ -13,7 +13,7 @@ reload(TaskConfig)
 
 class ImpalaConnection():
     '''
-    Class to manage Impala connection. Initialization is done through journal.TaskConfig file.
+    Class to manage Impala connection. Initialization is done through TaskConfig file.
     Has execute() and loadTableIntoImpala() methods.
     '''
     def __init__(self, settings=TaskConfig.impala_connection_settings):
